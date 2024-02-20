@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+body {
+  background-color: #16A085;
+  font-family: sans-serif;
+}
+
+
+.inner-wrapper {
+  inline-size: 750px;
+  block-size: 600px;
+  margin: auto;
+  padding: 50px;
+  margin-block-start: 100px;
+  background-color: white;
+  border-radius: 20px;
+  background-image: url("../images/bike.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 353px;
+}
+
+.top-title-wrapper {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 33px;
+}
+
+.avatar-img {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.text {
+  color: grey;
+}
+
+.avatar-img:hover {
+  background-color: #16A085;
+}
+
+.list {
+  margin-top: 60px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.item:hover>.item-price {
+  color: blue;
+}
+
+.item:hover>.item-text {
+  color: black;
+}
+
+.item+.item {
+  margin-top: 30px;
+}
+
+.item-text {
+  transition: all 0.4s;
+  font-weight: 600;
+  color: grey;
+  font-size: 22px;
+}
+
+.item-price {
+  font-weight: bold;
+  transition: all 0.4s;
+  font-size: 30px;
+}
+
+
+

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --color-red:red;
+    --color-blue:blue;
+    --text-size:16px;
+    --padding-all:10px
+}
+h1{
+    margin: 0 !important;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+body{
+    background-color: teal;
+    font-family: sans-serif;
+}
+.client-wrapper{
+    width: 800px;
+    margin: 100px auto;
+}
+.client-content{
+    padding: 10px 0;
+    background-color: #29414F;
+    color: white;
+    text-align: center;
+}
+.client-content > h1{
+    font-size: var(--text-size);
+}
+.client-content > p{
+    margin-top: 10px;
+}
+.client-form{
+    padding: var(--padding-all);
+    background-color: white;
+}
+.client-input-label{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.client-input-label + .client-input-label{
+    margin-top: 40px;
+}
+.client-input-label > span{
+    display: inline-block;
+    width: 40%;
+}
+.client-input, .client-select{
+    width: 60%;
+    padding: 10px ;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.client-select{
+    width: 60%;
+    padding: 10px ;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+
+.client-input:focus{
+    border-color: teal;
+}
+
+.radio-wrapper{
+    width: 60%;
+}
+.radio-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.radio-wrapper > label {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.box{
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px dashed black;
+}
+
+
+/* -----------------New Theme------------------- */
+
+.demo-wrapper{
+    padding: 20px;
+    background-color: blue;
+    height: 200vh;
+    overflow: hidden;
+}
+.demo-card{
+    padding: 20px;
+}
+.demo-card:nth-child(1){
+    background-color: red;
+    position: sticky;
+    top: 0;
+    left: 0;
+    /* right: 0;
+    left: 0;
+    top: 20px;     */
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: -50px; */
+    /* width: 200px; */
+    /* height: 70px; */
+    /* position: relative;
+    z-index: 2;*/
+}
+.demo-card:nth-child(2){
+    background-color: green;
+    /* position: relative;
+    z-index: 1;
+    top: 20px;
+    left: 10px; */
+}
+.demo-card:nth-child(3){
+    background-color: gold;
+}   

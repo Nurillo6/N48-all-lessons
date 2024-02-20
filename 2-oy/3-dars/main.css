@@ -1,0 +1,24 @@
+ul{
+    list-style: none;   
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: palevioletred;
+}
+.headeing{
+    text-transform: uppercase;
+}
+.list-item{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid blue;
+}
+.link{
+    color:palevioletred ;
+    text-decoration: none;
+} 

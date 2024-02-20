@@ -1,0 +1,27 @@
+
+ While boyicha masalalar :
+
+1. 1 dan n gacha bo'lgan sonlarni chiqaring 1 ham n ham chiqishi kerak?
+
+2. 1 dan n gacha bo'lgan sonlar ichida 3 ga ham 5 ga ham bo'linadigan sonlarni chiqaring ?
+
+3. n dan 1 gacha bo'lgan sonlarni chiqaring ?
+
+4. a dan b gacha bo'lgan sonlar yigindisini chiqaring va a dan b gacha nechta son borligni aniqlang (a < b) ?
+
+5. a dan b gacha bo'lgan sonlarni ichida b ning bo'luvchilarini chiqaring (a < b) ?
+
+6. a dan b gacha bo'lgan sonlarni ichida b ning bo'luvchilarini yig'indisini toping (a < b) ?	
+
+7.  5 dan 49 gacha bo‘lgan toq sonlar ko‘paytmasini, ya’ni P=5*7*9*…*49 ni hisoblash algoritmini tuzing ?
+
+8. A va B uzunlikdagi kesma berilgan (A > B) A kesma ichiga B kesmadan necha marta joylashtirish mumkin , while orqali bajaring ?
+
+9. A va B uzunlikdagi kesma berilgan (A > B) A kesma ichiga B kesma joylashgandadagi qoldiqni toping , while orqali bajaring ? 
+
+10 . 0.1 , 0.2 , 0.3 .... n kg , bolgan mahsulotning narxini chiqaruvchi algoritm tuzing ?
+
+11.Ikki xonali son kiriting , shu sonni o'nliklar va birliklar xonasini solishtiring , qay biri kichik bolsa (a > b || b > a) , while orqali aylanib
+shu sonlar orasidagi raqamlarni chiqarib bering ?
+
+12. a va b sonlarini kiriting  (a > b) , kiritilgan b sonini tub yoki tub emasligini aniqlang ?

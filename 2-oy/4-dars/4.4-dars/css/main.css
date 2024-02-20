@@ -1,0 +1,49 @@
+*{
+   margin: 0;
+   padding: 0; 
+   list-style: none;
+   text-decoration: none;
+}
+
+
+body{
+    background-color: #00D9AF;
+}
+
+.wrapper{
+    width: 800px;
+    margin: 100px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.wrapper-card{
+    width: 250px;
+    display:inline-block;
+}
+.card-title{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: grey;
+}
+.card-list{
+    text-transform: uppercase;
+}
+.card-item{
+    margin-bottom: 10px;
+    color: grey;
+}
+.card-inner-black{
+    color: #000;
+}
+.card-price{
+    color: grey;
+}
+.change-color{
+    color: yellow;
+}
+.change-color2{
+    color: red;
+}

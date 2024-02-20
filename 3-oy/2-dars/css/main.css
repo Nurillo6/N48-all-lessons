@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+body{
+    font-family: cursive;
+    background-color: teal;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-header{
+    background: teal;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header__logo-link {
+    display: inline-block;
+}
+
+.header__link-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list {
+    display: flex;
+    align-items: center;
+}
+.navbar__link {
+    position: relative;
+    padding: 16px;
+    display: inline-block;
+    color: #000;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    overflow-x: hidden;
+
+    &::before{
+        content: "";
+        width: 100%;
+        position: absolute;
+        height: 2px;
+        background-color: #333;
+        left: -209%;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        transition: left 0.4s;
+    }
+    &:hover::before{
+        left: 0;
+        right: 0;
+    }
+    &:active{
+        background: rgba(25, 25, 25, 0.70);
+        color: #fff;
+    }
+}
+.navbar__link--color-white{
+    color: white;
+}
+.popaver {
+    position: relative;
+
+    &:hover > .popaver__list{
+        height: 160px;
+    }
+}
+.popaver__list {
+    width: 100%;
+    height: 0;
+    overflow-y: hidden;
+    position: absolute;
+    /* padding: 8px 0; */
+    background-color: lightblue;
+    transition: height 0.4s;
+}
+.popaver__item {
+}
+.popaver__link {
+    width: 100%;
+    padding: 8px;
+    display: inline-block;
+    font-size: 13px;
+    &:hover{
+        background-color: #00BAFC;
+        color: white;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+}
+
+.header__call-number {
+}
+
+
+.wrapper:hover > .card{
+    width: 100%;
+}
+
+.card{
+    margin: 10px;
+    padding: 20px;
+    background-color: violet;
+    color: white;
+    width: 100px;
+}
+.card1{
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    /* transition-delay:1s ;    */
+
+    /* transition: width 1s linear 1s; */
+}
+.card2{
+    /* transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease; */
+    /* transition-delay:1s ;    */
+
+    transition: width 1s linear;
+}
+.card3{
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    /* transition-delay:1s ;    */
+
+    /* transition: width 1s linear 1s; */
+}
+.card4{
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+    /* transition-delay:1s ;    */
+
+    /* transition: width 1s linear 1s; */
+}
+.card5{
+    transition-property: width;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    /* transition-delay:1s ;    */
+
+    /* transition: width 1s linear 1s; */
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border:2px solid black;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.4s linear;
+}
+
+.box:hover{
+    /* transform: rotate(3turn); */
+    /* transform: translateX(50px);
+    transform: translateY(50px); */
+    /* transform: translate(50px , -50px); */
+    /* transform: rotateX(-50deg);
+    transform: rotateY(-50deg); */
+    /* transform: rotate(-180deg); */
+    /* transform: scaleX(3);
+    transform: scaleY(3); */
+    /* transform: scale(-2); */
+    /* transform: skewX(50deg);
+    transform: skewY(50deg); */
+    /* transform: skew(45deg); */
+
+
+
+    /* transform: matrix(0,0,0,0,0); */
+    /* transform: translate(20px, 10px) rotate(360deg) scale(2); */
+}

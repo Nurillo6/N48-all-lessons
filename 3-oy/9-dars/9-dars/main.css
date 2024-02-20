@@ -1,0 +1,49 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* ::selection{
+    background-color: red;
+    color: white;
+} */
+.content-wrapper{
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    transition: all 1s ease 2s; */
+    
+    /* git config --global user.name "" 
+    git config --global user.email "" */
+
+
+    position: relative;
+    width: 300px;
+    margin: 200px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: teal;
+    font-weight: 600;
+    color: white;
+}
+.content-wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:-9px;
+    border-top: 10px solid teal;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+/* @media only screen and (max-width:768px){
+    .coffee-img{
+        width: 100%;
+    }
+} */

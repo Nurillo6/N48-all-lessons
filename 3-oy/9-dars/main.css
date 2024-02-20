@@ -1,0 +1,33 @@
+body{
+    background-color: teal;
+}
+
+.content-wrapper{
+    position: relative;
+    width: 300px;
+    margin: 200px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: teal;
+    font-weight: 600;
+    color: white;
+}
+
+.content-wrapper::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    /* border: 10px solid red; */
+    border-top: 10px solid teal;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+.social-link{
+    color: white;
+}
+.social-link:hover > svg > path{
+    fill: blue;
+}

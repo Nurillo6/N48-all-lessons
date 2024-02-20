@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Fraunces';
+    src: url('../fonts/Fraunces144pt-Black.woff2') format('woff2'),
+        url('../fonts/Fraunces144pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: 'Fraunces', serif;
+}
+.site-header{
+    background-color: teal;
+    padding: 40px;
+}
+
+.navbar__list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.navbar__link{
+    color: white;
+    color: #FEFCF7;
+
+    font-family: Fraunces, serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+}

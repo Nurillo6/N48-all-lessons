@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.svg">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Carshipment</title>
+</head>
+<body>
+    <!-- Site header start -->
+    <header class="site-header">
+        <div class="site-header-top">
+            <div class="container">
+                <div class="header">
+                    <a class="header-logo-link" href="/">
+                        <img class="header-logo-img" src="./images/site-logo.svg" alt="Carshipment site Logo" width="245" height="43">
+                    </a>
+                    <div class="header-navbar navbar">
+                        <ul class="navbar-list">
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="#">Home</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="#">Services</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="#">About us</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="#">Shipping Methods</a>
+                            </li>
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                        <a class="navbar-call" href="tel:224-218-2949">
+                            <button class="navbar-phone-wrapper">
+                                <img src="./images/header-phone.svg" alt="Phone number icon" width="18" height="18">
+                            </button>
+                            <span>224-218-2949</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-wrap-form-content">
+                    <div class="header-form-wrapper form">
+                        <h3 class="form-title">Shipping Cost Calculator</h3>
+                        <p class="form-text">Get your estimate quote in seconds</p>
+                        <form class="submit-form" action="https://echo.htmlacademy.ru" method="POST">
+                            <label class="form-label">
+                                <span>From </span>
+                                <input name="location_from" class="form-input" type="text" placeholder="Select ZIP code or location">
+                            </label>
+                            <label class="form-label">
+                                <span>To </span>
+                                <input name="location_to" class="form-input" type="text" placeholder="Select ZIP code or location">
+                            </label>
+                            <label class="form-label">
+                                <span>Estimate time </span>
+                                <input name="time" class="form-input change-bg" type="text" placeholder="Select estimate time">
+                            </label>
+                            <div class="form-label border-bottom">
+                                <span>Transport type </span>
+                                <div class="radio-wrapper">
+                                    <label class="radio-btn" type="button">
+                                        <input name="open" type="radio">
+                                        <span>Open</span>
+                                    </label>
+                                    <label class="radio-btn" type="button">
+                                        <input name="open" type="radio">
+                                        <span>Enclosed</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="form-submit-btn">Get Shipment estimate</button>
+                        </form>
+                    </div>
+                    <div class="header-bottom-content content">
+                        <div class="content-top-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.9084 0.593466L16.0679 7.29436L23.1334 8.36709C23.5149 8.42626 23.8314 8.70673 23.9506 9.09073C24.0693 9.47474 23.9704 9.89602 23.6946 10.1788L18.5793 15.3952L19.7886 22.7629C19.8519 23.1605 19.6953 23.5617 19.384 23.799C19.2105 23.9303 19.0014 24.0007 18.7878 23.999C18.6239 24.0013 18.4628 23.9593 18.3187 23.8777L11.9997 20.3997L5.6807 23.8777C5.33994 24.0658 4.92685 24.0351 4.61491 23.7984C4.30297 23.5617 4.14644 23.1605 4.21086 22.7629L5.42019 15.3952L0.304847 10.1788C0.0296403 9.89602 -0.0692535 9.47474 0.0494188 9.09073C0.168656 8.70673 0.485117 8.42626 0.866564 8.36709L7.93209 7.29436L11.0916 0.593466C11.2611 0.230169 11.6138 0 11.9997 0C12.3863 0 12.7389 0.230169 12.9084 0.593466Z" fill="#FFA800"/>
+                                </svg>
+                            <p>World Top Rated Shipping Company</p>
+                        </div>
+                        <h1 class="content-title">Transportation Services that you can trust</h1>
+                        <p class="content-bottom-text">Transport your vehicle with PROs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Site header end -->
+</body>
+</html>

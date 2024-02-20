@@ -1,0 +1,149 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body{
+    background-color: teal;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+.check-btn{
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid green;
+}
+.check-img{
+    display: none;
+}
+.chech-input:checked ~ .check-btn > .check-img{
+    display: block;
+}
+
+
+.img-hover:hover{
+    fill: red;
+}
+
+.svg-wrapper{
+    color: white;
+}
+.svg-wrapper:hover{
+    color: red;
+}
+/* 
+.img-svg:hover > path{
+    fill: red;
+} */
+
+.card{
+    width: 255px;
+    position: relative;
+    padding: 112px 20px 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+.card::after{
+    content: "";
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-image: url("../images/online-bg.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.card > h2 {
+    margin-bottom: 26px;
+    color: #2D314D;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 28px; /* 116.667% */
+    letter-spacing: -0.429px;
+}
+.card > p {
+    color: #9597A5;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    letter-spacing: -0.25px;
+}
+
+.list{
+    list-style-type: none;
+}
+
+.list-item{
+    position: relative;
+    padding: 0 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: all 1s;
+}
+.list-item:hover > .inner-wrap{
+    padding: 5px;
+    height: 172px;
+}
+.inner-wrap{
+    transition: all 0.4s;
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 18px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    position: absolute;
+    padding: 0;
+    height: 0;
+    overflow: hidden;
+}
+.inner-wrap > a{
+    border-radius: 10px;
+    display: block;
+    padding: 8px;
+    padding-right: 7px;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+.inner-wrap > a:hover{
+    background-color: teal;
+    color: white;
+}

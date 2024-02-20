@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>10-dars</title>
+</head>
+<body>
+    <!-- 1. order, flex-basis, flex-grow, flex-shrink -->
+    <!-- <div class="demo">
+        <div class="card card1">1</div>
+        <div class="card card2">2</div>
+        <div class="card card3">3</div>
+        <div class="card card4">4</div>
+    </div> -->
+
+
+    <!-- Form start -->
+    <!-- <form class="user-form" action="https://echo.htmlacademy.ru" method="POST" enctype="multipart/form-data">
+        <input required minlength="4"  name="user_name" type="text" placeholder="Isminggizni kiriting" autocomplete="off" aria-label="user-name">
+
+        <label>
+            Email kiriting
+            <input required autocomplete="off" name="user_email" type="email" placeholder="Email kiriting">
+        </label>
+
+        <label>
+            Telefon raqam kiriting
+            <input disabled name="user_phone" type="tel" placeholder="Telefon raqam kiriting">
+        </label>
+
+        <label>
+            Tugilgan kunginggizni kiriting
+            <input min="5" max="35" name="user_birth" type="number" placeholder="Tugilgan kunginggizni kiriting">
+        </label>
+
+        <label>
+            Password kiriting
+            <input name="user_pass" type="password" placeholder="Password kiriting">
+        </label>
+
+        <label>
+            Ma'lumot qidiring
+            <input type="search" placeholder="Ma'lumot qidiring">
+        </label>
+
+        <input accept=".xlsx" name="user_choosen_file" type="file" aria-label="Choose file">
+
+        <label>
+            <input name="user_marry" type="checkbox">
+            Oila qurganmisiz
+        </label>
+
+        <label >
+            <input name="user_radio1" type="radio">
+            <input name="user_radio1" type="radio">
+        </label>
+
+        <input name="user_date" type="date">
+
+        <input type="range">
+
+        <input name="user_fav_color" type="color">
+
+        <button type="reset">Tozalash</button>
+        <button type="submit">Jo'natish</button>
+    </form> -->
+    <!-- <input class="user-input" type="text" placeholder="Имя"> -->
+
+
+    <!-- textarea, fieldset, legend -->
+
+
+
+
+    <div class="form-wrapper">
+        <h2 class="form-title">Напишите нам</h2>
+        <form action="https://echo.htmlacademy.ru" method="post">
+            <div class="name-email-wrapper">
+                <input class="form-input" autocomplete="off" name="user_name" required type="text" placeholder="Имя">
+                <input class="form-input" autocomplete="off" name="user_phone" required type="tel" placeholder="Номер телефона">
+            </div>
+            <input aria-label="Электронная почта" class="form-input width-full" autocomplete="off" name="user_email" required type="email" placeholder="Электронная почта">
+            <div class="submit-button-wrapper">
+                <button class="form-btn-submit" type="submit">Отправить</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

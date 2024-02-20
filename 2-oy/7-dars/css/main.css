@@ -1,0 +1,65 @@
+/* mulish-300 - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../Fonts/mulish-v13-latin-300.woff2') format('woff2'); 
+  }
+  /* mulish-regular - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../Fonts/mulish-v13-latin-regular.woff2') format('woff2'); 
+  }
+  /* mulish-700 - latin */
+  @font-face {
+    font-display: swap;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../Fonts/mulish-v13-latin-700.woff2') format('woff2'); 
+  }
+
+
+  @font-face {
+    font-family: 'Livvic', sans-serif;
+    src: url('../Fonts/Livvic-Bold.woff2') format('woff2'),
+        url('../Fonts/Livvic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../Fonts/Livvic-Light.woff2') format('woff2'),
+        url('../Fonts/Livvic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../Fonts/Livvic-Regular.woff2') format('woff2'),
+        url('../Fonts/Livvic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: "Livvic", sans-serif;
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    /* letter-spacing: 10px; */
+    /* line-height:10px; */
+    /* font-size: 50px; */
+}
+
+p{
+    font-family: "Livvic", sans-serif;
+}

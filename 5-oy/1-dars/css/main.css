@@ -1,0 +1,29 @@
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card1, .card2, .card3{
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50%;
+}
+
+.couter{
+    color: white;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.country-img{
+    width: 200px;
+}

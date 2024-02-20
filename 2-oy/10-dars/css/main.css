@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: grey;
+}
+
+.demo{
+  padding: 20px;
+  margin: 200px auto;
+  display: flex;
+  background-color: violet;
+  border-radius: 20px;
+}
+/* order => tartib boyicha joylanish kichikdan  kattasiga    */
+.card{
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: burlywood;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  flex-basis: 250px;
+}
+
+.card1{
+  order: 1;
+  flex-grow: 2;
+  /* flex-shrink: 0; */
+}
+.card2{
+  order: 2;
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+}
+.card3{
+  order: 3;
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+}
+.card4{
+  order: 4;
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+}
+
+.user-form{
+  width: 450px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 100px auto;
+  border-radius: 20px;
+  gap: 10px;
+}
+
+.user-input{
+  width: 343px;
+  margin: 100px;
+  padding: 18px 0 18px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background-color: #FFF;
+  outline: none;
+}
+.user-input:focus{
+  border-color: blue;
+}
+.user-input::placeholder{
+  color: #000;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.5;
+  line-height: normal;
+}
+
+.form-wrapper{
+  max-width: 696px;
+  margin: 100px auto;  
+}
+.form-title{
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Rubik, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.name-email-wrapper{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-input{
+  width: 49%;
+  padding: 18px 0 18px 20px;
+  outline: none;
+  color: #000;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.20);
+  background: #FFF;
+}
+.form-input:focus{
+  border-color: blue;
+}
+.form-input::placeholder{
+  color: #000;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+
+.width-full{
+  width: 100%;
+}
+.submit-button-wrapper{
+  margin-top: 20px;
+  text-align: end;
+}
+.form-btn-submit{
+  cursor: pointer;
+  width: 145px;
+  padding: 17px 30px;
+  border-radius: 10px;
+  background: #7297EF;
+  color: #FFF;
+  font-family: Rubik, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  border: none;
+}
+.form-btn-submit:hover{
+  opacity: 0.8;
+}

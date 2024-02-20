@@ -1,0 +1,8 @@
+
+
+1.m va n sonlarini kiriting , ular orasidan juftlari yigindisidan toqlari yigindisini ayrib natijani chiqaring ?
+2.Eng kichik bir xonali son dan katta va eng katta uch xonali sondan kichik bolgan lar orasidan 
+ nechta 3 xonalik va nechta 2 xonalik va nechta 1 xonalik son borligini aniqlang ?
+3. 1 dan a gacha bolgan sonlar ichida a ning boluvchilari sonini nechta ekanligini toping ?
+4.a dan b gacha bolgan sonlari kvadratga oshirib qaytarib natijaga chiqaring 
+5.a va b sonlar orasida 3 ga 5 ga bolinadigan sonlar nechta va ular qaysilar ?

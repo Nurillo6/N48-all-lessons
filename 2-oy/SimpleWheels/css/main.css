@@ -1,0 +1,60 @@
+/* .wrapper a {
+  color: red;
+} */
+/* .wrapper>a {
+  color: red;
+} */
+
+/* .wrapper~div {
+  color: blue;
+} */
+/* .wrapper+.wrapper {
+  margin-top: 500px;
+  color: red;
+} */
+
+/* * {
+  margin: 0;
+  padding: 0;
+
+} */
+
+/* 
+main {
+  width: 500px;
+  height: 500px;
+}
+
+.demo {
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+} */
+body {
+  /* overflow: hidden; */
+  font-size: 20px;
+}
+
+/* 
+.wrap {
+  display: flex;
+}
+
+.navbar {
+  width: 30%;
+  height: 100vh;
+  background-color: red;
+  overflow-y: scroll;
+
+}
+
+.content {
+  width: 70%;
+  height: 100vh;
+  background-color: blue;
+  overflow-y: scroll;
+} */
+
+.hello-text {
+  font-size: 1rem;
+}

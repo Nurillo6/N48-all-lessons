@@ -1,0 +1,98 @@
+    /* Basic codes start */
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        box-sizing: border-box;
+    }
+    .container{
+        width: 1350px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    /* Basic codes end */
+    
+    /* Header styles start */
+    .site-haeder{
+        padding: 135px 0 80px 0;
+    }
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header-logo-link{
+        display: inline-block;
+    }
+    
+    .header-navbar{
+    }
+    .header-list{
+        display: flex;
+        align-items: center;
+    }
+    .header-item{
+        margin-left: 40px;
+    }
+    .header-navlink{
+        text-decoration: none;
+        color: #8E8999;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .home-bold{
+        color: black;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .home-margin{
+        margin-left: 0;
+    }
+    /* Header styles end */
+    
+    /* Main styles start */
+    
+    /* Hero section start */
+    .hero-section{
+        padding-bottom: 171px;
+    }
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero-content{
+        width: 445px;
+    }
+    .hero-title{
+        margin-bottom: 25px;
+        color: #000;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .hero-text{
+        margin-bottom: 48px;
+        color: #7D7987;
+        font-size: 21px;
+        font-weight: 300;
+    }
+    .hero-link{
+        width: 200px;
+        display: inline-block;
+        padding:16px 0 ;
+        color: #FFF;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 55px;
+        background: #458FF6;
+        text-align: center;
+        
+    }
+    .hero-img{
+        display: inline-block;
+        vertical-align: middle;
+    }
+    /* Hero section end */
+    
+    /* Main styles end */

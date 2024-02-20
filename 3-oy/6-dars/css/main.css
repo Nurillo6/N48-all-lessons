@@ -1,0 +1,41 @@
+body {
+  background-color: #202739;
+}
+
+.table {
+  width: 60%;
+  margin: 100px auto;
+}
+
+.table__thead > tr {
+  color: #fff;
+}
+
+.table__thead > tr > th {
+  text-align: start;
+  padding: 10px;
+}
+
+.tabel__body > tr {
+  color: white;
+}
+
+.tabel__body > tr > td {
+  padding: 10px;
+}
+
+.tabel__body > tr > td:nth-child(1) {
+  color: red;
+}
+
+.odd {
+  background-color: #464A53;
+}
+
+.even {
+  background-color: #2D3446;
+}
+
+.odd-gold {
+  background-color: gold;
+}/*# sourceMappingURL=main.css.map */
