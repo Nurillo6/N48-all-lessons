@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Todo</title>
+</head>
+<body>
+    <div class="form-wrapper">
+        <form class="form">
+            <label>
+                Todo
+                <input required class="form-input" type="text" placeholder="Enter">
+            </label>
+            <button type="submit">Add</button>
+        </form>
+        <div class="comp-wrapper">
+            <button class="all">
+                All
+                 <span class="all-count">0</span>
+            </button>
+            <button class="all-complated">Complated <span class="complated-count">0</span></button>
+            <button class="all-uncomplated">Uncomplated <span class="uncomplated-count">0</span></button>
+        </div>
+        <ul class="list"></ul>
+    </div>
+
+    <div id="modal-wrapper" class="modal-wrapper">
+        <div class="modal"></div>
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>

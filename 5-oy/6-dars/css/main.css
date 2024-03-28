@@ -1,0 +1,21 @@
+
+.wrapper{
+    border: 2px dashed black;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.render-img{
+    border: 2px dashed black;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.render-img{
+    margin: 50px;
+}
+.file-input{
+    opacity: 0;
+}

@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+    font-family: cursive;
+    color: white;
+}
+.wrapper{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    background-color: grey;
+    margin: 100px auto;
+}
+
+.mouseup{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    background-color: red;
+    margin: 100px auto;
+}
+.mousedown{
+    width: 200px;
+    height: 200px;
+    border-radius:50% ;
+    background-color: blue;
+    margin: 100px auto;
+}
+
+
+.grab{
+    cursor: grab;
+    background-color: red;
+}
+.grabing{
+    cursor: grabbing;
+}

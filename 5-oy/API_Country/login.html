@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Login</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body class="bg-teal-500">
+    
+    <form class="w-[650px] mx-auto p-5 mt-[50px] bg-white rounded-[20px] login-form">
+        <h1 class="text-[25px] font-bold text-center mb-2">Welcome Country</h1>
+        <label class="flex flex-col ">
+            <span>Enter name</span>
+            <input class="p-2 rounded-[10px] border-[2px] border-teal-500" type="text" required placeholder="Enter name"/>
+        </label>
+        <label class="flex flex-col mt-5">
+            <span>Enter login</span>
+            <input class="p-2 rounded-[10px] border-[2px] border-teal-500" type="text" required placeholder="Enter login"/>
+        </label>
+        <button class="w-full mt-5 p-2 bg-teal-500 rounded-[20px] text-white font-bold text-[16px]" type="submit">Submit</button>
+    </form>
+
+    <script src="./js/login.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>11-dars</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body>
+    
+    <div class="flex space-x-[50px] p-5">
+        <ul class="w-[400px] flex flex-col gap-[20px] user">Loading...</ul>
+        <ul class="w-[400px] flex flex-col gap-[20px] post"></ul>
+        <ul class="w-[400px] flex flex-col gap-[20px] comment"></ul>
+    </div>
+
+    <div id="modal-wrapper" class="modal-wrapper">
+        <div class="modal"></div>
+    </div>
+
+    <script src="./js/app.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>

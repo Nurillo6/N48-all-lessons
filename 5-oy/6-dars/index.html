@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+    <title>6-dars</title>
+</head>
+<body>
+
+    <label>
+        <div class="wrapper">
+            <img class="car-img" src="./images/car.png" alt="Car icon" width="150" height="150">
+        </div>
+        <input class="file-input" type="file">
+    </label>
+    <div class="img-wrapper">
+
+    </div>
+    <!-- <img class="render-img" src="" alt="Rendom img" width="150" height="150" > -->
+
+
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>

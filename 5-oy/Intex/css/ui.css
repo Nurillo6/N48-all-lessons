@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: cursive;
+}
+.modal-wrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    display: none;
+}
+.modal{
+    width: 50%;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 10px auto;
+}
+.open-modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    display: block;
+}
+.karkasniy-warpper{
+    background-color: teal;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+.karkasniy-list, .naduvniy-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.list-item{
+    position: relative;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px black;
+    width: 300px;
+}

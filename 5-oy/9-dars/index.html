@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>9-dars</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body>
+    <div class="flex">
+        <ul class="list flex flex-col gap-[30px] p-[10px] w-[32%]"></ul>
+        <ul class="list2 flex flex-col gap-[30px] p-[10px] w-[32%]"></ul>
+    </div>
+
+    <div id="modal-wrapper" class="modal-wrapper">
+        <div class="modal"></div>
+    </div>
+
+    <script src="./js/9-dars.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</body>
+</html>

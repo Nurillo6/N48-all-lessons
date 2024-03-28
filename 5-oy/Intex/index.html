@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/ui.css">
+    <title>INTEX-MARKET.UZ</title>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="karkasniy-warpper">
+                <h2>Каркасные бассейны</h2>
+            </div>
+            <ul class="karkasniy-list"></ul>
+        </section>
+        <section>
+            <div class="karkasniy-warpper">
+                <h2>Надувные бассейны</h2>
+            </div>
+            <ul class="naduvniy-list"></ul>
+        </section>
+    </main>
+    <div id="modal-wrapper" class="modal-wrapper">
+        <div class="modal"></div>
+      </div>
+    <script src="./js/ui.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+</body>
+</html>

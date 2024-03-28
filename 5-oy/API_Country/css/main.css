@@ -1,0 +1,31 @@
+
+
+.modal-wrapper{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    display: none;
+}
+.modal{
+    position: absolute;
+    width: 50%;
+    padding: 20px;
+    right: 0;
+    left: 0;
+    background-color: teal;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+.open-modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    backdrop-filter: blur(10px);
+    display: block;
+}
